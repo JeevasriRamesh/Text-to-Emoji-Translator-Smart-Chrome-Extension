@@ -1,0 +1,1 @@
+# Text-to-Emoji-Translator-Smart-Chrome-Extension
