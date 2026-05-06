@@ -1,0 +1,60 @@
+/* Pink Color Scheme */
+:root {
+  --medium-pink: #FF9EB5;
+  --dark-pink: #D35D6E;
+  --pastel-pink: #FFD1DC;
+  --white: #FFF8FA;
+}
+
+body {
+  background-color: var(--pastel-pink);
+  color: var(--dark-pink); /* All text in dark pink */
+  padding: 15px;
+  font-family: 'Arial', sans-serif;
+  width: 250px;
+}
+
+h1 {
+  color: var(--dark-pink);
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+#inputText {
+  width: 93%;
+  height: 80px;
+  padding: 8px;
+  border: 2px solid var(--medium-pink);
+  border-radius: 10px;
+  background-color: var(--white);
+  color: var(--dark-pink); /* Text color */
+  margin-bottom: 10px;
+  resize: none;
+}
+
+#translateBtn {
+  background-color: var(--medium-pink);
+  color: var(--white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+#translateBtn:hover {
+  background-color: var(--dark-pink);
+}
+
+#output {
+  margin-top: 15px;
+  padding: 10px;
+  min-height: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  border: 1px dashed var(--medium-pink);
+  color: var(--dark-pink); /* Output text color */
+}
